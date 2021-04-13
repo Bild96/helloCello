@@ -1,0 +1,291 @@
+{
+  "contractName": "helloCelo",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/tux/Desktop/helloCelo/contracts/helloCelo.sol\":\"helloCelo\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/tux/Desktop/helloCelo/contracts/helloCelo.sol\":{\"keccak256\":\"0x049081c230ea53972fe0c3ff1b3b9caceed6c2a3138aaf8a2ff53c7dd1786e62\",\"urls\":[\"bzz-raw://535759bb5ce194527fb9b2a3dfdc94cf6ac6fbeea30b5728e524c99ea111bdee\",\"dweb:/ipfs/QmVdWovzEgBGwYkJ91aLbKQw9ewcq4nmMCkJskFQCvV97x\"]}},\"version\":1}",
+  "bytecode": "0x60806040526040518060400160405280600981526020017f68656c6c6f43656c6f00000000000000000000000000000000000000000000008152506000908051906020019061004f929190610062565b5034801561005c57600080fd5b50610107565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a357805160ff19168380011785556100d1565b828001600101855582156100d1579182015b828111156100d05782518255916020019190600101906100b5565b5b5090506100de91906100e2565b5090565b61010491905b808211156101005760008160009055506001016100e8565b5090565b90565b603e806101156000396000f3fe6080604052600080fdfea265627a7a72315820069c291cb3646891b93878a353230d4b6a1ee62b1c845737ba322742fd3eaa4a64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820069c291cb3646891b93878a353230d4b6a1ee62b1c845737ba322742fd3eaa4a64736f6c63430005100032",
+  "sourceMap": "34:88:2:-;;;55:25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;34:88;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:88:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "34:88:2:-;;;;;",
+  "source": "pragma solidity >=0.4.21 <0.6.0;\n\ncontract helloCelo {\nstring name = 'helloCelo';\nstruct helloCelo {\nstring helloCelo;\n}\n}\n",
+  "sourcePath": "/home/tux/Desktop/helloCelo/contracts/helloCelo.sol",
+  "ast": {
+    "absolutePath": "/home/tux/Desktop/helloCelo/contracts/helloCelo.sol",
+    "exportedSymbols": {
+      "helloCelo": [
+        69
+      ]
+    },
+    "id": 70,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 62,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 69,
+        "linearizedBaseContracts": [
+          69
+        ],
+        "name": "helloCelo",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 65,
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 69,
+            "src": "55:25:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 63,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "55:6:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "68656c6c6f43656c6f",
+              "id": 64,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "69:11:2",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_cfdd30b770dbe87daa0661b9856064a4fb50e537e79a32494fc1e33921b8c0de",
+                "typeString": "literal_string \"helloCelo\""
+              },
+              "value": "helloCelo"
+            },
+            "visibility": "internal"
+          },
+          {
+            "canonicalName": "helloCelo.helloCelo",
+            "id": 68,
+            "members": [
+              {
+                "constant": false,
+                "id": 67,
+                "name": "helloCelo",
+                "nodeType": "VariableDeclaration",
+                "scope": 68,
+                "src": "101:16:2",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 66,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "101:6:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "helloCelo",
+            "nodeType": "StructDefinition",
+            "scope": 69,
+            "src": "82:38:2",
+            "visibility": "public"
+          }
+        ],
+        "scope": 70,
+        "src": "34:88:2"
+      }
+    ],
+    "src": "0:123:2"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/home/tux/Desktop/helloCelo/contracts/helloCelo.sol",
+      "exportedSymbols": {
+        "helloCelo": [
+          69
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".21",
+            "<",
+            "0.6",
+            ".0"
+          ]
+        },
+        "id": 62,
+        "name": "PragmaDirective",
+        "src": "0:32:2"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            69
+          ],
+          "name": "helloCelo",
+          "scope": 70
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "name",
+              "scope": 69,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "string",
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "string",
+                  "type": "string"
+                },
+                "id": 63,
+                "name": "ElementaryTypeName",
+                "src": "55:6:2"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "68656c6c6f43656c6f",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "string",
+                  "type": "literal_string \"helloCelo\"",
+                  "value": "helloCelo"
+                },
+                "id": 64,
+                "name": "Literal",
+                "src": "69:11:2"
+              }
+            ],
+            "id": 65,
+            "name": "VariableDeclaration",
+            "src": "55:25:2"
+          },
+          {
+            "attributes": {
+              "canonicalName": "helloCelo.helloCelo",
+              "name": "helloCelo",
+              "scope": 69,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "helloCelo",
+                  "scope": 68,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "string",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "string",
+                      "type": "string"
+                    },
+                    "id": 66,
+                    "name": "ElementaryTypeName",
+                    "src": "101:6:2"
+                  }
+                ],
+                "id": 67,
+                "name": "VariableDeclaration",
+                "src": "101:16:2"
+              }
+            ],
+            "id": 68,
+            "name": "StructDefinition",
+            "src": "82:38:2"
+          }
+        ],
+        "id": 69,
+        "name": "ContractDefinition",
+        "src": "34:88:2"
+      }
+    ],
+    "id": 70,
+    "name": "SourceUnit",
+    "src": "0:123:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "44787": {
+      "events": {},
+      "links": {},
+      "address": "0x3e42DCeE57300ff424357155D4a5578DD0C10c3D",
+      "transactionHash": "0x9b08e96f39cf656f23cf5639df1e127afa36aa17eb24b1f77f540179d1150f3e"
+    }
+  },
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-04-13T14:20:40.376Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
